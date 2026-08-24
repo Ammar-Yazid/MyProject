@@ -4,11 +4,11 @@ import time
 
 # PENYAMBUTAN KEPADA USER 
 print(colored("==========selamat datang di kalkulator sederhana==========", "white"))
-time.sleep(1)
+time.sleep(2)
 
 # input pembayaran kepada user
 print(colored("masukkan jumlah pembayaran kalau mau make kalkulator (transfer ke dana nomor 081264058352)", "light_green"))
-time.sleep(1) 
+time.sleep(2) 
 while True:
     sudah_bayar = str(input(colored("apakah sudah dibayar? (ya/tidak): ", "light_magenta")))
     if sudah_bayar == "ya":
